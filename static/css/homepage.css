@@ -1,3 +1,7 @@
+:root {
+  text-align: center;
+}
+
 .homepage img {
   border-radius: 50%;
   height: 20rem;
@@ -6,13 +10,28 @@
   margin-right: auto;
   margin-top: 5rem;
 }
+img {
+  border-radius: 50%;
+  height: 14rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
 
 h1 {
+  letter-spacing: 1.2rem;
+  font-size: 3.5rem;
+}
+
+h2 {
   color: indianred;
-  font-family: "Damion", cursive;
+  font-family: "Codystar", cursive;
   display: block;
-  margin-top: 2rem;
+  margin-top: -2.7rem;
   text-align: center;
+  letter-spacing: 1.2rem;
+  font-size: 3rem;
 }
 p {
   text-align: center;
