@@ -59,22 +59,22 @@ h2 {
 .link-1 {
   grid-column-start: 1;
   grid-column-end: 2;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .link-2 {
   grid-column-start: 3;
   grid-column-end: 4;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .link-3 {
   grid-column-start: 5;
   grid-column-end: 6;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .link-4 {
   grid-column-start: 7;
   grid-column-end: 8;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .link-1 img:hover {
   box-shadow: 0 0 0.5rem 0.4rem rgb(235, 202, 243);
