@@ -1,5 +1,7 @@
 :root {
   text-align: center;
+  background-color: rgba(238, 210, 244, 0.683);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .homepage img {
@@ -17,15 +19,18 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
 h1 {
   letter-spacing: 1.2rem;
   font-size: 3.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 100;
 }
 
 h2 {
-  color: indianred;
+  color: rgb(223, 136, 243);
   font-family: "Codystar", cursive;
   display: block;
   margin-top: -2.7rem;
@@ -33,6 +38,54 @@ h2 {
   letter-spacing: 1.2rem;
   font-size: 3rem;
 }
-p {
-  text-align: center;
+
+.homepage {
+  background: rgb(241, 241, 241);
+  margin-top: 3.8rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 0;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.linked-pages {
+  background: rgb(241, 241, 241);
+  margin: 3.8rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  display: grid;
+  column-gap: 0.5rem;
+}
+.link-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-size: 2rem;
+}
+.link-2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  font-size: 2rem;
+}
+.link-3 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  font-size: 2rem;
+}
+.link-4 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  font-size: 2rem;
+}
+.link-1 img:hover {
+  box-shadow: 0 0 0.5rem 0.4rem rgb(235, 202, 243);
+}
+
+.link-2 img:hover {
+  box-shadow: 0 0 0.5rem 0.4rem rgb(235, 202, 243);
+}
+.link-3 img:hover {
+  box-shadow: 0 0 0.5rem 0.4rem rgb(235, 202, 243);
+}
+.link-4 img:hover {
+  box-shadow: 0 0 0.5rem 0.4rem rgb(235, 202, 243);
 }
