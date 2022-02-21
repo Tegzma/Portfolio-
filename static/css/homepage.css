@@ -6,9 +6,7 @@
 li {
   list-style: none;
 }
-form {
-  margin-left: 2rem;
-}
+
 input {
   margin: 0.5rem;
 }
@@ -209,10 +207,6 @@ img {
   }
   img {
     height: 20rem;
-    width: auto;
-  }
-  img:hover {
-    height: 30rem;
     width: auto;
   }
 
